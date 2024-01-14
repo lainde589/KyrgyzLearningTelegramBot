@@ -1,0 +1,23 @@
+{
+  "name": "kyrgyzlearningtelegrambot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Ariet Muzirapov",
+  "license": "ISC",
+  "dependencies": {
+    "telegraf": "^4.15.3",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2"
+  }
+}
