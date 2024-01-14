@@ -4,33 +4,28 @@ Welcome to the Kyrgyz Language Learning Telegram Bot! This bot is designed to as
 
 ## Features
 
-- **Add Phrases:** Use the `/addphrase` command to add new Kyrgyz phrases and their translations to the bot's database.
-
 - **Get a Random Phrase:** Use the `/getphrase` command to retrieve a random Kyrgyz phrase and its translation from the database.
+
+**Warning: Commands below are supposed to be used by developers or contributors only.**
+
+- **Add Phrases:** Use `/addphrase` command to add new Kyrgyz phrases and their translations to the bot's database.
+- **Delete Phrases:** Use `/dltphrase` command to remove existing Kyrgyz phrases from database.
 
 ## Getting Started
 
-To use the Kyrgyz Language Learning Telegram Bot, follow these steps:
-
-1. Start a chat with the bot on Telegram: [@YourBotUsername](https://t.me/YourBotUsername).
-
-2. Use the `/addphrase` command to contribute new Kyrgyz phrases and translations to the bot.
-
-3. Use the `/getphrase` command to practice and learn random Kyrgyz phrases.
-
-## Commands
-
-- `/addphrase <kyrgyz-phrase> <translation>`: Add a new Kyrgyz phrase and its translation to the bot's database.
-
-- `/getphrase`: Retrieve a random Kyrgyz phrase and its translation from the bot's database.
+To use the Kyrgyz Language Learning Telegram Bot, start a chat with the bot on Telegram: [@kyrgyz_learning_bot](https://t.me/kyrgyz_learning_bot).
 
 ## Contributing
 
-Contributions to enhance the bot's functionality or database of phrases are welcome! Follow these steps to contribute:
+Contributions to improve the bot, be it any suggestions or error corrections, are welcome!
+
+**How to become a contributor?**
 
 1. Fork the repository.
 
 2. Clone your forked repository locally:
 
    ```bash
-   git clone https://github.com/your-username/kyrgyz-language-bot.git
+   git clone https://github.com/laindeso2/KyrgyzLearningTelegramBot.git
+
+**Or you can contact me directly (check the social media links in my Github profile)**
