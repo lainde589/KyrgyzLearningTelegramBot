@@ -20,8 +20,10 @@ bot.use(session());
 
 
 
-
-bot.command('getphrase', async (ctx: Context) => getPhrase(ctx))
+bot.command('start', ctx => {
+    ctx.reply('test');
+});
+bot.command('getphrase', async (ctx: Context) => getPhrase(ctx));
 
 // !! COMMANDS BELOW CAN BE USED BY DEVELOPERS ONLY !!
 bot.command('addphrase', async (ctx: Context) => addPhrase(ctx));
