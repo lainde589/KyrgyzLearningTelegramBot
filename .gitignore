@@ -1,4 +1,3 @@
 commitChanges.bat
 node_modules
 .env
-kyrgyz_lexicon.db
