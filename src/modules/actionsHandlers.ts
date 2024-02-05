@@ -1,5 +1,6 @@
 import { Context } from "telegraf";
 import { alphabetDetailedText, alphabetText } from "../db/alphabet";
+import { startCommandText } from "../db/serviceMessages";
 
 
 export function handleStart(ctx: Context): void {
