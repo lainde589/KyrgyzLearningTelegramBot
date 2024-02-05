@@ -1,5 +1,7 @@
 export const alphabetText: string =
 `
+The Kyrgyz Alphabet
+
 Аа — [ a ]: like "u" in "up"
 Бб — [ b ]: like "b" in "boy"
 Вв — [ v ]: like "v" in "void"
@@ -36,4 +38,13 @@ export const alphabetText: string =
 Ээ — [ e ]: like "e" in "let"
 Юю — [ yu ]: like the English word "you"
 Яя — [ ya ]: like “ya” in “yawn”
+
+Tap the More button below to get the detailed information about the Kyrgyz alphabet.
+`;
+
+
+
+export const alphabetDetailedText: string =
 `
+test
+`;

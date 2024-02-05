@@ -12,7 +12,9 @@ bot.help(ctx => commands.handleHelp(ctx));
 bot.command('author', ctx => commands.handleAuthor(ctx));
 
 
-bot.action('alphabet',  (ctx) => actions.handleAlphabet(ctx))
+bot.action('start', ctx => actions.handleStart(ctx));
+bot.action('alphabet', ctx => actions.handleAlphabet(ctx));
+bot.action('alphabet_detailed', ctx => actions.handleAlphabetDetailed(ctx));
 
 
 
