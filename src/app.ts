@@ -16,8 +16,9 @@ bot.command('author', ctx => commands.handleAuthor(ctx));
 // ? are executed when a button in inline keyboard is pressed
 bot.action('start', ctx => actions.handleStart(ctx));
 bot.action('alphabet', ctx => actions.handleAlphabet(ctx));
-bot.action('alphabet_detailed', ctx => actions.handleAlphabetDetailed(ctx));
 
+bot.action('grammar', ctx => actions.handleGrammar(ctx));
+bot.action('pronouns', ctx => actions.handlePronouns(ctx));
 
 
 

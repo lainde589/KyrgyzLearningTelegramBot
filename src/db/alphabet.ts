@@ -5,7 +5,7 @@ The Kyrgyz Alphabet
 Аа — [ a ]: like "u" in "up"
 Бб — [ b ]: like "b" in "boy"
 Вв — [ v ]: like "v" in "void"
-Гг — [ g ]: like "g" in "gain"
+Гг — [ g/gh ]: like "g" in "gain"
 Дд — [ d ]: like "d" in "delta"
 Ее — [ ye/e ]: like "ye" in "yet" or "e" in "let"
 Ёё — [ yo ]: like "yo" in "york"
@@ -13,7 +13,7 @@ The Kyrgyz Alphabet
 Зз — [ z ]: like "z" in "zebra"
 Ии — [ ee ]: like "ee" in "bee"
 Йй — [ y ]: like "y" in "buy"
-Кк — [ k ]: like "c" in "cat"
+Кк — [ k/q ]: like "c" in "cat"
 Лл — [ l ]: like "l" in "lay"
 Мм — [ m ]: like "m" in "make"
 Нн — [ n ]: like "n" in "new"
@@ -38,8 +38,6 @@ The Kyrgyz Alphabet
 Ээ — [ e ]: like "e" in "let"
 Юю — [ yu ]: like the English word "you"
 Яя — [ ya ]: like “ya” in “yawn”
-
-Tap the More button below to get the detailed information about the Kyrgyz alphabet.
 `;
 
 
