@@ -25,7 +25,7 @@ export function handleStart(ctx: Context): void {
 
 export function handleHelp(ctx: Context): void {
     const helpCommandText: string =
-        Format.bold('What can you do?') +
+        Format.bold('What can you do?').text +
         '\n\n/start - start the tutorial again\n' +
         '/author - information about the author\n'
         
