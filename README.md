@@ -14,7 +14,7 @@ We provide a [MIT License](LICENSE) for the free use, modification and distribut
 - [Kyrgyz version](LICENSE_ky)
 - [Russian version](LICENSE_ru)
 
-Adding multilingual license versions helps make our project more accessible and understandable to developers from all over the world.
+Adding multilingual license versions helps make our project more accessible and understandable to developers who speak other languages.
 
 ## Contributing
 

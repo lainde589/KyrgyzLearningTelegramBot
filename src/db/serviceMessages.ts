@@ -1,7 +1,7 @@
 export const startCommandText: string =
 `Hello, let's start your journey to learning the Kyrgyz language. 
 
-Just tap on one of the sections below, and go ahead!'
+Just tap on one of the sections below, and go ahead!
 Tap /help to get full list of commands
 `;
 
