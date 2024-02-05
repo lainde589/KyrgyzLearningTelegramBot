@@ -22,8 +22,10 @@ export function handleAlphabet(ctx: Context): void {
     ctx.editMessageText(alphabetText, {
         reply_markup: {
             inline_keyboard: [
-                [{ text: '◀️', callback_data: 'start' }],
-                [{ text: 'More', callback_data: 'alphabet_detailed' }]
+                [
+                    { text: '◀️', callback_data: 'start' },
+                    { text: 'More', callback_data: 'alphabet_detailed' }
+                ]
             ]
         }
     });

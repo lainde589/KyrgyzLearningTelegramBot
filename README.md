@@ -2,18 +2,19 @@
 
 Welcome to the Kyrgyz Language Learning Telegram Bot! This bot is designed to assist users in learning the Kyrgyz language by providing phrases and their translations.
 
-## Features
-
-- **Get a Random Phrase:** Use the `/getphrase` command to retrieve a random Kyrgyz phrase and its translation from the database.
-
-**Warning: Commands below are supposed to be used by developers or contributors only.**
-
-- **Add Phrases:** Use `/addphrase` command to add new Kyrgyz phrases and their translations to the bot's database.
-- **Delete Phrases:** Use `/dltphrase` command to remove existing Kyrgyz phrases from database.
-
 ## Getting Started
 
 To use the Kyrgyz Language Learning Telegram Bot, start a chat with the bot on Telegram: [@kyrgyz_learning_bot](https://t.me/kyrgyz_learning_bot).
+
+## Licenses
+
+We provide a [MIT License](LICENSE) for the free use, modification and distribution of this project. For your convenience, the license text is available in several languages:
+
+- [English version](LICENSE)
+- [Kyrgyz version](LICENSE_ky)
+- [Russian version](LICENSE_ru)
+
+Adding multilingual license versions helps make our project more accessible and understandable to developers from all over the world.
 
 ## Contributing
 
