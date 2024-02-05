@@ -7,8 +7,8 @@ const bot: Telegraf = new Telegraf(process.env.BOT_TOKEN || '');
 
 
 
-bot.command('start', ctx => commands.handleStart(ctx));
-bot.command('help', ctx => commands.handleHelp(ctx));
+bot.start(ctx => commands.handleStart(ctx));
+bot.help(ctx => commands.handleHelp(ctx));
 bot.command('author', ctx => commands.handleAuthor(ctx));
 
 
