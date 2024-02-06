@@ -1,6 +1,6 @@
 import { Telegraf } from 'telegraf';
-import * as commands from './modules/commandsHandlers';
-import * as actions from './modules/actionsHandlers';
+import commands from './modules/commandsCombiner';
+import actions from './modules/actionsCombiner';
 
 require('dotenv').config();
 const bot: Telegraf = new Telegraf(process.env.BOT_TOKEN || '');
@@ -8,17 +8,17 @@ const bot: Telegraf = new Telegraf(process.env.BOT_TOKEN || '');
 
 
 // ? are executed when a command is entered
-bot.start(ctx => commands.handleStart(ctx));
-bot.help(ctx => commands.handleHelp(ctx));
-bot.command('author', ctx => commands.handleAuthor(ctx));
+bot.start(ctx => commands.handleStartCmd(ctx));
+bot.help(ctx => commands.handleHelpCmd(ctx));
+bot.command('author', ctx => commands.handleAuthorCmd(ctx));
 
 
 // ? are executed when a button in inline keyboard is pressed
-bot.action('start', ctx => actions.handleStart(ctx));
-bot.action('alphabet', ctx => actions.handleAlphabet(ctx));
+bot.action('start', ctx => actions.handleStartMenu(ctx));
+bot.action('alphabet', ctx => actions.handleAlphabetSection(ctx));
 
-bot.action('grammar', ctx => actions.handleGrammar(ctx));
-bot.action('pronouns', ctx => actions.handlePronouns(ctx));
+bot.action('grammar', ctx => actions.handleGrammarSection(ctx));
+bot.action('pronouns', ctx => actions.handlePronounsSection(ctx));
 
 
 

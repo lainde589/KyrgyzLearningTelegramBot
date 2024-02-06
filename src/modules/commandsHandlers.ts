@@ -3,7 +3,7 @@ import { startCommandText, helpCommandText, authorCommandText } from "../db/serv
 
 
 
-export function handleStart(ctx: Context): void {
+export function handleStartCmd(ctx: Context): void {
     ctx.reply(startCommandText, {
         reply_markup: {
             resize_keyboard: true,
@@ -19,12 +19,12 @@ export function handleStart(ctx: Context): void {
 
 
 
-export function handleHelp(ctx: Context): void {
+export function handleHelpCmd(ctx: Context): void {
     ctx.reply(helpCommandText);
 }
 
 
 
-export function handleAuthor(ctx: Context): void {
+export function handleAuthorCmd(ctx: Context): void {
     ctx.reply(authorCommandText);
 }
