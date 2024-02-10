@@ -12,7 +12,7 @@ export const helpCommandText: string =
 What can you do?
 
 /start - start the tutorial again
-/word - get a random Kyrgyz word and its definition
+/word - get a random Kyrgyz word and its definition (EXPERIMENTAL)
 /author - information about the author
 `;
 
@@ -21,8 +21,10 @@ What can you do?
 export const authorCommandText: string =
 `
 If you have any questions or need assistance, as well as suggestions for developing the bot, feel free to contact me on Telegram: @lainde_so2
+
 Source code of the bot here: https://github.com/laindeso2/KyrgyzLearningTelegramBot
 `;
+
 
 
 

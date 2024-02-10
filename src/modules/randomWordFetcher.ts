@@ -10,20 +10,18 @@ export function handleWordCmd(ctx: Context): void {
 
 
 
-const baseURL: string = 'https://en.wiktionary.org/api/rest_v1/page/definition/';
-const path: string = baseURL + getRandomValue();
+function fetchRandomWordData(): string {
+    const [ word, translation, transcription, typeOfSpeech ] = getRandomValue();
+    const randomWordMessageTemplate: string = 
+    `
+📍 ${word} [${transcription}] ${typeOfSpeech}.
 
-function fetchRandomWordData(): any {
-    fetch(path)
-        .then(response => response.text)
-        .then(text => {
-            return text;
-        })
-        .catch(err => {
-            return err;
-        });
+${translation}
+    `;
+    
+    return randomWordMessageTemplate;
 }
 
-function getRandomValue(): string {
+function getRandomValue() {
     return vocabulary[~~(Math.random() * vocabulary.length)];
 }
