@@ -1,5 +1,5 @@
 import { handleStartCmd, handleHelpCmd, handleAuthorCmd } from "./commandsHandlers";
-import { handleWordCmd } from "./randomwordFetcher";
+import { handleWordCmd } from "./randomWordFetcher";
 
 const commands = {
     handleStartCmd,

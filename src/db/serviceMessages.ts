@@ -12,6 +12,7 @@ export const helpCommandText: string =
 What can you do?
 
 /start - start the tutorial again
+/word - get a random Kyrgyz word and its definition
 /author - information about the author
 `;
 
