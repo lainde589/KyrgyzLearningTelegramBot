@@ -5,7 +5,7 @@ The Kyrgyz Alphabet
 Аа  [ ɑ ] — (u)pon
 Бб  [ b ] — (b)all
 Вв  [ v ] — (v)oid
-Гг  [ g/ʁ ] — (g)ain or French R
+Гг  [ g/ɣ ] — (g)ain or French R
 Дд  [ d ] — (d)elta
 Ее  [ je/e ] — (ye)t or l(e)t
 Ёё  [ jo ] — (yo)rk

@@ -11,6 +11,7 @@ const bot: Telegraf = new Telegraf(process.env.BOT_TOKEN || '');
 bot.start(ctx => commands.handleStartCmd(ctx));
 bot.help(ctx => commands.handleHelpCmd(ctx));
 bot.command('author', ctx => commands.handleAuthorCmd(ctx));
+bot.command('word', ctx => commands.handleWordCmd(ctx));
 
 
 // ? are executed when a button in inline keyboard is pressed
