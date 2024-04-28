@@ -11,7 +11,7 @@ export function handleStartCmd(ctx: Context): void {
                 [{ text: 'Alphabet 🔡', callback_data: 'alphabet' }],
                 [{ text: 'Phonetics 🔊', callback_data: 'phonetics' }],
                 [{ text: 'Grammar 📖', callback_data: 'grammar' }],
-                [{ text: 'Vocabulary 📚', callback_data: 'vocab' }]
+                [{ text: 'Vocabulary 📚', callback_data: 'vocabulary' }]
             ]
         }
     });

@@ -17,8 +17,10 @@ bot.command('word', ctx => commands.handleWordCmd(ctx));
 // ? are executed when a button in inline keyboard is pressed
 bot.action('start', ctx => actions.handleStartMenu(ctx));
 bot.action('alphabet', ctx => actions.handleAlphabetSection(ctx));
-
 bot.action('grammar', ctx => actions.handleGrammarSection(ctx));
+bot.action('phonetics', ctx => actions.handlePhoneticsSection(ctx));
+bot.action('vocabulary', ctx => actions.handleVocabularySection(ctx));
+
 bot.action('pronouns', ctx => actions.handlePronounsSection(ctx));
 
 

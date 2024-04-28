@@ -7,6 +7,10 @@ const vocabulary = [
     ['апа', 'mother', 'apa', 'noun'],
     ['ага', 'brother', 'aɣa', 'noun'],
     ['ини', 'young brother', 'ini', 'noun'],
+    ['эне', 'mother', 'ene', 'noun'],
+    ['жана', 'and', 'dʒana', 'conjuction'],
+    ['ооба', 'yes, yeah, yep', 'o:wa', 'adverb'],
+    ['жок', 'no, nope', 'dʒoq', 'adverb'],
 ];
 
 export default vocabulary;
