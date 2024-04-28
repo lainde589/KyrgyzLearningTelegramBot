@@ -8,7 +8,7 @@ const vocabulary = [
     ['ага', 'brother', 'aɣa', 'noun'],
     ['ини', 'young brother', 'ini', 'noun'],
     ['эне', 'mother', 'ene', 'noun'],
-    ['жана', 'and', 'dʒana', 'conjuction'],
+    ['жана', 'and', 'dʒana', 'conjunction'],
     ['ооба', 'yes, yeah, yep', 'o:wa', 'adverb'],
     ['жок', 'no, nope', 'dʒoq', 'adverb'],
 ];

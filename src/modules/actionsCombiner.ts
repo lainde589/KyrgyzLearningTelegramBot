@@ -5,7 +5,7 @@ import { handlePronounsSection } from "./actionsHandlers/grammarSection/pronouns
 
 
 
-
+// !!!!!!!!!!!!!!!!!!! FUNCTONS BELOW ARE TEMPORARY !!!!!!!!!!!!!!!
 import { Context } from "telegraf";
 
 function handlePhoneticsSection(ctx: Context): void {
@@ -26,7 +26,7 @@ function handleVocabularySection(ctx: Context): void {
         }
     });
 }
-
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 
