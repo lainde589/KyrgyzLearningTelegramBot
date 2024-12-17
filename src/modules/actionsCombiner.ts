@@ -9,7 +9,7 @@ import { handlePronounsSection } from "./actionsHandlers/grammarSection/pronouns
 import { Context } from "telegraf";
 
 function handlePhoneticsSection(ctx: Context): void {
-    ctx.editMessageText('Under development. Please contact the author: @lainde_so2', {
+    ctx.editMessageText('Under development. Please contact the author: @lainde589', {
         reply_markup: {
             inline_keyboard: [
                 [{ text: '◀️ Back', callback_data: 'start' }]
@@ -18,7 +18,7 @@ function handlePhoneticsSection(ctx: Context): void {
     });
 }
 function handleVocabularySection(ctx: Context): void {
-    ctx.editMessageText('Under development. Please contact the author: @lainde_so2', {
+    ctx.editMessageText('Under development. Please contact the author: @lainde589', {
         reply_markup: {
             inline_keyboard: [
                 [{ text: '◀️ Back', callback_data: 'start' }]
@@ -26,7 +26,7 @@ function handleVocabularySection(ctx: Context): void {
         }
     });
 }
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 
